@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlw7pk78wocss"]
+
+[ext_resource type="Script" path="res://scripts/SimManager.gd" id="1_cn1dg"]
+[ext_resource type="PackedScene" uid="uid://cdcrwkxpis8j7" path="res://scenes/min_dist.tscn" id="2_vek5n"]
+
+[node name="Game" type="Node"]
+
+[node name="SimManager" type="Node" parent="."]
+script = ExtResource("1_cn1dg")
+NUM_NODES = 7
+
+[node name="MinDist" parent="SimManager" instance=ExtResource("2_vek5n")]
+offset_left = -918.0
+offset_top = -520.0
+offset_right = -575.0
+offset_bottom = -451.0
+
+[node name="Camera2D" type="Camera2D" parent="."]

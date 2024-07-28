@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://botfbs8am56eb"]
+
+[ext_resource type="Script" path="res://scripts/g_node.gd" id="2_0udrl"]
+
+[node name="GNode" type="Sprite2D"]
+scale = Vector2(0.998012, 1)
+script = ExtResource("2_0udrl")
